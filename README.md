@@ -68,15 +68,19 @@ I manage a custom-tailored digital ecosystem at `alberighi.com`, where I experim
 
 ---
 
-### 📈 Performance Metrics
+### 📈 Activity & Impact
 
 <div align="center">
 
-<!-- Fixed API endpoints: Using a single reliable stats card and top langs. 
-     Removed the second stats card which often conflicts or fails on new accounts. -->
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=HaydenAlberighi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+<!-- Removed dynamic image cards to prevent broken image errors on new accounts. 
+     Replacing with a clean, professional activity summary. -->
 
-<img width="420em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HaydenAlberighi&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
+**GitHub Activity Hub**
+[![GitHub Stats](https://img.shields.io/github/followers/HaydenAlberighi?style=for-the-badge&logo=github&color=4f46e5)](https://github.com/HaydenAlberighi)
+[![GitHub Stars](https://img.shields.io/github/stars/HaydenAlberighi?style=for-the-badge&logo=github&color=1e293b)](https://github.com/HaydenAlberighi)
+
+**Current Focus: Full Stack Development & Infrastructure**
+*Commits, Pull Requests, and Architecture design are tracked via the primary profile activity feed.*
 
 </div>
 
