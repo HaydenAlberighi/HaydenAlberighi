@@ -72,8 +72,9 @@ I manage a custom-tailored digital ecosystem at `alberighi.com`, where I experim
 
 <div align="center">
 
+<!-- Fixed API endpoints: Using a single reliable stats card and top langs. 
+     Removed the second stats card which often conflicts or fails on new accounts. -->
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=HaydenAlberighi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=HaydenAlberighi&show_icons=true&theme=tokyonight&hide_border=true" />
 
 <img width="420em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HaydenAlberighi&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
 
