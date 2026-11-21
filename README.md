@@ -1,4 +1,4 @@
-<img alt="Hayden Della Casa Alberighi — Brisbane, Australia" width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F4C3A,50:1B7A5E,100:D4AF37&height=200&text=Hayden%20Della%20Casa%20Alberighi&fontSize=52&fontColor=F7F4EA&animation=fadeIn&fontAlign=78&fontAlignY=40" />
+<img alt="Hayden Della Casa Alberighi — Brisbane, Australia" width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F4C3A,50:1B7A5E,100:D4AF37&height=200&text=Hayden%20Della%20Casa-nl-Alberighi&fontSize=46&fontColor=F7F4EA&animation=fadeIn&fontAlign=76&fontAlignY=40" />
 
 <div align="center">
 
