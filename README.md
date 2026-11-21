@@ -1,4 +1,4 @@
-<img alt="Animated waving banner in Circular Appliance Co. brand colours" width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F4C3A,50:1B7A5E,100:D4AF37&height=200" />
+<img alt="Animated waving banner in Circular Appliance Co. brand colours" width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F4C3A,50:1B7A5E,100:D4AF37&height=90" />
 
 <div align="center">
 
