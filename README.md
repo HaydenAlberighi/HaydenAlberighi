@@ -4,51 +4,48 @@
 
 # Hayden Della Casa Alberighi
 
-**Brisbane, Australia · Operator, engineer, and someone who likes problems with real consequences.**
+**Co-founder & Director of Operations — [Circular Appliance Co.](https://circularappliances.com)**
 
-[Website](https://circularappliances.com) · [Email](mailto:hayden@circularappliances.com.au) · [Prospectus](https://circularappliances.com/prospectus)
-
-![TypeScript](https://img.shields.io/badge/TypeScript-0F4C3A?style=flat-square&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js_16-0F4C3A?style=flat-square&logo=nextdotjs&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-0F4C3A?style=flat-square&logo=cloudflare&logoColor=white)
-![Python](https://img.shields.io/badge/Python-0F4C3A?style=flat-square&logo=python&logoColor=white)
+Brisbane, Australia · [Website](https://circularappliances.com) · [Email](mailto:hayden@circularappliances.com.au) · [Prospectus](https://circularappliances.com/prospectus)
 
 </div>
 
 ---
 
-## A bit about me
+## About me
 
-I'm Hayden. I build and run things that have to work in the real world, not just in a demo. That has meant workshop operations, safety-critical records, evidence and case-management systems, and more recently the platform behind a social enterprise I co-founded.
+I'm a co-founder and the Director of Operations at Circular Appliance Co., a Brisbane social enterprise in its early stages. I look after the operational side of the business — from how the workshop is set up and run, to how appliances move through collection, restoration, safety checking and delivery.
 
-I care about the unglamorous parts: the audit trail, the thing that stops a bad record going out, the form that works on a phone in a shed, the number that is honestly zero instead of quietly inflated. If a process only works because somebody remembers to do it, I don't consider it finished.
-
-I'm at my best when I can take a messy operational problem, sit with the people doing the work, and turn it into something simple, recorded and repeatable.
+My background spans operations and engineering, but the work I care about is practical: making sure a second-hand appliance is genuinely safe before it reaches a household, and that the process behind it is consistent, recorded and repeatable.
 
 ---
 
-## What I've been building
+## Circular Appliance Co.
 
-| | |
-| :--- | :--- |
-| **Circular Appliance Co.** | A Brisbane social enterprise I co-founded with my father. We're pre-launch: building a workshop that restores appliances safely and uses the repair bench as a paid pathway into the trades. I run operations and built the platform. [See the site →](https://circularappliances.com) |
-| **Evidence & case systems** | Private work on evidence handling, case management and document workflows — the kind of software where getting the chain of custody wrong is not acceptable. |
-| **Automation & local AI** | A collection of private experiments: workflow automation, delivery copilots, local AI infrastructure and prediction tooling. Most stay private until they're genuinely useful. |
+Circular Appliance Co. is a Brisbane social enterprise I'm building with my father. We intercept repairable washing machines and dryers before they go to landfill, restore them to a published safety standard, and supply them at fair prices — with the repair bench doubling as a paid pathway into the trades.
+
+We are pre-launch. The workshop, supply relationships and sales model are being established now. We intend to offer a six-month warranty on every appliance we release, subject to legal review.
+
+[See the website](https://circularappliances.com) · [Pilot brief](https://circularappliances.com/pilot-brief) · [Impact methodology](https://circularappliances.com/impact-methodology)
+
+---
+
+## My role
+
+As Director of Operations, I own the work that turns the idea into a functioning business:
+
+- **The workshop** — its layout, equipment, work health and safety, and the day-to-day running of the floor.
+- **Collection and logistics** — how appliances arrive, where they come from, and how they reach a customer.
+- **Quality and safety** — no appliance is released without passing an electrical safety test and receiving a named sign-off.
+- **Customer experience** — from the first enquiry and booking through to delivery and warranty support.
 
 ---
 
 ## Currently
 
-Co-founder and Director of Operations at Circular Appliance Co. We're pre-launch and looking for founding supply, distribution and capability partners for a 50-unit trial. If that's your world, I'd like to hear from you.
+We're early and building deliberately. We're looking for founding **supply, distribution and capability partners** for a 50-unit supply trial. If you manage a waste stream, a housing portfolio, a training pathway or a funding program, I'd like to hear from you.
 
----
-
-## How I work
-
-- **Safety is a property of the system, not a poster.** The unsafe action should be impossible, not discouraged.
-- **Honest numbers.** Modelled figures are labelled as modelled; zeros are published as zeros.
-- **Build for the operator.** The person on the bench or in the field is the user I design for.
-- **Own the whole loop.** From the first conversation to the deployment and the follow-up.
+[Read the prospectus](https://circularappliances.com/prospectus)
 
 ---
 
