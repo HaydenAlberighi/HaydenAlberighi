@@ -1,100 +1,88 @@
 <a href="https://circularappliances.com">
-  <img src="https://raw.githubusercontent.com/HaydenAlberighi/HaydenAlberighi/main/assets/profile-banner.png" width="100%" alt="Hayden Della Casa Alberighi — Co-Founder & Director of Operations, Circular Appliance Co." />
+  <img src="assets/profile-banner.png" width="100%" alt="Circular Appliance Co. — turning discarded appliances into community equity" />
 </a>
 
 <div align="center">
 
-[circularappliances.com](https://circularappliances.com) · [Partnership prospectus](https://circularappliances.com/prospectus) · [hayden@circularappliances.com.au](mailto:hayden@circularappliances.com.au)
+# Hayden Della Casa Alberighi
+
+**Co-founder & Director of Operations — [Circular Appliance Co.](https://circularappliances.com)**
+
+Brisbane, Australia · [circularappliances.com](https://circularappliances.com) · [hayden@circularappliances.com.au](mailto:hayden@circularappliances.com.au)
+
+![Next.js 16](https://img.shields.io/badge/Next.js_16-0F4C3A?style=flat-square&logo=nextdotjs&logoColor=white)
+![React 19](https://img.shields.io/badge/React_19-0F4C3A?style=flat-square&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-0F4C3A?style=flat-square&logo=typescript&logoColor=white)
+![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-0F4C3A?style=flat-square&logo=cloudflare&logoColor=white)
+![D1](https://img.shields.io/badge/D1-0F4C3A?style=flat-square&logo=cloudflare&logoColor=white)
 
 </div>
 
 ---
 
-## What I do
+## Currently
 
-I'm a co-founder and the **Director of Operations** at [Circular Appliance Co.](https://circularappliances.com), a Brisbane social enterprise. I own the workshop and everything that moves through it — collection, triage, repair, electrical safety certification, quality control and delivery. I also designed and built the platform it runs on.
+**Pre-launch.** Circular Appliance Co. is building a Brisbane workshop that intercepts repairable washing machines and dryers before landfill, restores them to a published safety standard, and supplies them at fair prices — with the repair bench doubling as a paid pathway into the trades.
+
+We are seeking founding **supply, distribution and capability partners** for a 50-unit supply trial. If you manage a waste stream, a housing portfolio, a training pathway or a funding program, I would like to talk.
+
+[Read the prospectus](https://circularappliances.com/prospectus) · [Pilot brief (printable)](https://circularappliances.com/pilot-brief) · [Impact methodology](https://circularappliances.com/impact-methodology)
+
+---
+
+## What I do
 
 | | |
 | :--- | :--- |
-| **Operations** | Workshop and WHS, logistics, inventory, parts and salvage. Everything between a machine arriving and a warrantied appliance leaving the floor. |
-| **Safety & quality** | AS/NZS 3760 test-and-tag with licensed supervisor sign-off. I hold final release authority — the warranty depends on that standard, not on a promise. |
-| **Engineering** | The public website, operations dashboard, integration hub and API. Architecture through deployment; I wrote it. |
-| **Training** | The workshop doubles as a paid, supervised pathway into the trades. I designed and run that side of it too. |
+| **Operations** | Workshop design and WHS, collection logistics, inventory, parts and salvage — everything between a machine arriving and a warrantied appliance leaving the floor. |
+| **Safety & quality** | Designed the system so a unit cannot be listed without a passed electrical safety test, a named sign-off and a serial-linked history. The software refuses the release; it is not left to a manual. |
+| **Engineering** | Designed and built the public website, operations dashboard, trainee portal and integration hub — from data model and access control through to deployment. |
+| **Training pathway** | Structured the repair bench as a staged, supervised and paid pathway, with hours, assessments and sign-offs recorded against real work. |
 
 ---
 
-## The business
+## The work
 
-We intercept washing machines and dryers before landfill, restore and safety-certify them, and supply them to low-income households at a fair price — while running the workshop as a training floor for people locked out of the workforce.
+### Circular Appliance Co.
 
-> **A zero-waste local economy in which discarded household appliances are converted into community equity, environmental gain and secure local employment.**
+One codebase, three surfaces, one database:
 
-**The model:** Intercept → Restore → Certify → Redistribute → Reinvest.
+- **Public website** — shop with concession and retail pricing, collection bookings with indicative pilot slots, referral pathways, a self-service customer portal, impact reporting with a published methodology, and a prospectus that prints cleanly to PDF.
+- **Operations dashboard** — intake, triage, repair logs, electrical safety records, listings, sales, reservations, warranty claims, parts, trainee hours, partners and closed impact periods.
+- **Platform** — Next.js 16 on Cloudflare Workers, Prisma with D1, hashed API keys, typed server actions, encrypted integration credentials, and hand-written Vitest coverage over the domain rules.
 
-**Where we are:** Pre-launch. The 50-unit supply pilot is underway, and we're seeking founding supply, distribution and capability partners. [Read the prospectus →](https://circularappliances.com/prospectus)
+A few decisions worth stating:
 
-The [impact dashboard](https://circularappliances.com/impact) currently reads zero on every measure. That is deliberate — the pilot has not yet produced a full month of operating records. We report what we actually achieved, including shortfalls, rather than publish a projection styled as a result. The numbers will fill in as the workshop runs.
+- Money is integer cents in AUD; enum-like values are validated strings; JSON is stored as text.
+- Concession evidence records card type and date sighted — never the card number.
+- Published impact figures come from operating records; closed periods are frozen so historical numbers never move.
+- Rate limits fail open. A misconfigured binding must never block a customer or a webhook.
+
+### Elsewhere
+
+Private repositories cover experiments in delivery copilots, local AI infrastructure, workflow automation and case-management tooling. I keep them private until there is something worth showing — or until the question they answer is worth publishing.
 
 ---
 
-## The standard I hold the work to
-
-These aren't slogans on a wall. Each one has a test that can be checked.
+## How I work
 
 | Principle | The test |
 | :--- | :--- |
-| **Safety** | "A second-hand appliance sold to a low-income family must be as safe as a new one." — 100% test-and-tag, named sign-off. |
-| **Equity** | "Access to a working appliance should not depend on access to credit." — no credit checks, no compounding interest. |
-| **Training** | "Training is paid, supervised and leads somewhere real." — wages are a cost of goods, not an afterthought. |
-| **Honesty** | "We report what we actually achieved, including shortfalls." |
-
-> "We are not asking funders to subsidise a service forever. We are asking them to fund the workshop that makes the service pay for itself."
->
-> — Mark & Hayden Della Casa Alberighi, founding directors
+| **Safety first** | A second-hand appliance in a low-income household must be as safe as a new one. The gate is in the state machine. |
+| **Access, not credit** | A working machine should not depend on access to credit. No credit checks, no compounding interest. |
+| **Honest measurement** | Report what was actually achieved, including shortfalls. Modelled figures are labelled as modelled; zeros are published as zeros. |
+| **Build for the operator** | If a process only works because someone remembers to do it, it is not finished. |
 
 ---
 
-## The platform
+## Contact
 
-One codebase, two applications, one database — deployed on Cloudflare Workers via OpenNext.
+Partnerships, procurement, research collaborations or a good question about the model:
 
-- **Public website** — shop with three pricing tiers, concession and referral pathways, collection bookings, live impact reporting, and a partnership prospectus that prints to PDF for funders and councils.
-- **Operations dashboard** — the workshop end to end: intake, triage, repair logging, AS/NZS 3760 testing with supervisor sign-off, listings, sales, rentals, warranty claims, trainee hours and partner pipeline.
-- **Integration hub** — Stripe, email, SMS, Slack, signed outbound webhooks and a key-authenticated REST API, with credentials encrypted at rest.
-
-**Engineering decisions I made that matter:**
-
-- A unit cannot be listed without a **passed AS/NZS 3760 test signed off by a licensed supervisor** — refused in the state machine, not left to a manual.
-- Every unit is serialised (`CAC-0001…`) and carries its test record, repair history and warranty claims for life.
-- Impact figures come from operating records; closed periods are **frozen** so published numbers never move retrospectively.
-- Money is integer cents in AUD. Concession evidence records card type sighted and expiry — never card numbers.
-- Single-unit stock is claimed with compare-and-swap holds, so two buyers can never buy the same machine.
-
----
-
-## Toolkit
-
-![Next.js 15](https://img.shields.io/badge/Next.js_15-2C3539?style=flat-square&logo=nextdotjs&logoColor=F4F6F5)
-![React 19](https://img.shields.io/badge/React_19-2C3539?style=flat-square&logo=react&logoColor=F4F6F5)
-![TypeScript](https://img.shields.io/badge/TypeScript-2C3539?style=flat-square&logo=typescript&logoColor=F4F6F5)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-2C3539?style=flat-square&logo=tailwindcss&logoColor=F4F6F5)
-![Prisma 6](https://img.shields.io/badge/Prisma_6-2C3539?style=flat-square&logo=prisma&logoColor=F4F6F5)
-![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-2C3539?style=flat-square&logo=cloudflare&logoColor=F4F6F5)
-![Stripe](https://img.shields.io/badge/Stripe-2C3539?style=flat-square&logo=stripe&logoColor=F4F6F5)
-![Zod](https://img.shields.io/badge/Zod-2C3539?style=flat-square&logo=zod&logoColor=F4F6F5)
-
-Also Python, Node.js, Docker, Linux, DNS and self-hosted infrastructure. The platform is self-hostable end to end by design.
-
----
-
-## Get in touch
-
-- **Business:** [circularappliances.com](https://circularappliances.com) · [Partnership prospectus](https://circularappliances.com/prospectus) · [enquiries@circularappliances.com](mailto:enquiries@circularappliances.com)
-- **Me directly:** [hayden@circularappliances.com.au](mailto:hayden@circularappliances.com.au)
-- **Partnerships:** [Partners page](https://circularappliances.com/partners) — we are seeking capability capital, not an operating subsidy.
+[circularappliances.com/contact](https://circularappliances.com/contact) · [hayden@circularappliances.com.au](mailto:hayden@circularappliances.com.au)
 
 <div align="center">
 
-<small>Brisbane, Australia · Divert waste · Restore value · Empower community</small>
+<sub>Brisbane, Australia · Built with care · All rights reserved</sub>
 
 </div>
