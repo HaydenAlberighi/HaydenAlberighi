@@ -1,88 +1,67 @@
-<a href="https://circularappliances.com">
-  <img src="assets/profile-banner.png" width="100%" alt="Circular Appliance Co. — turning discarded appliances into community equity" />
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HaydenAlberighi/HaydenAlberighi/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HaydenAlberighi/HaydenAlberighi/output/github-snake-light.svg">
+  <img alt="My GitHub contribution activity drawn as a wave" src="https://raw.githubusercontent.com/HaydenAlberighi/HaydenAlberighi/output/github-snake.svg" width="100%" />
+</picture>
 
 <div align="center">
 
 # Hayden Della Casa Alberighi
 
-**Co-founder & Director of Operations — [Circular Appliance Co.](https://circularappliances.com)**
+**Brisbane, Australia · Operator, engineer, and someone who likes problems with real consequences.**
 
-Brisbane, Australia · [circularappliances.com](https://circularappliances.com) · [hayden@circularappliances.com.au](mailto:hayden@circularappliances.com.au)
+[Website](https://circularappliances.com) · [Email](mailto:hayden@circularappliances.com.au) · [Prospectus](https://circularappliances.com/prospectus)
 
-![Next.js 16](https://img.shields.io/badge/Next.js_16-0F4C3A?style=flat-square&logo=nextdotjs&logoColor=white)
-![React 19](https://img.shields.io/badge/React_19-0F4C3A?style=flat-square&logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-0F4C3A?style=flat-square&logo=typescript&logoColor=white)
-![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-0F4C3A?style=flat-square&logo=cloudflare&logoColor=white)
-![D1](https://img.shields.io/badge/D1-0F4C3A?style=flat-square&logo=cloudflare&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js_16-0F4C3A?style=flat-square&logo=nextdotjs&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-0F4C3A?style=flat-square&logo=cloudflare&logoColor=white)
+![Python](https://img.shields.io/badge/Python-0F4C3A?style=flat-square&logo=python&logoColor=white)
 
 </div>
 
 ---
 
-## Currently
+## A bit about me
 
-**Pre-launch.** Circular Appliance Co. is building a Brisbane workshop that intercepts repairable washing machines and dryers before landfill, restores them to a published safety standard, and supplies them at fair prices — with the repair bench doubling as a paid pathway into the trades.
+I'm Hayden. I build and run things that have to work in the real world, not just in a demo. That has meant workshop operations, safety-critical records, evidence and case-management systems, and more recently the platform behind a social enterprise I co-founded.
 
-We are seeking founding **supply, distribution and capability partners** for a 50-unit supply trial. If you manage a waste stream, a housing portfolio, a training pathway or a funding program, I would like to talk.
+I care about the unglamorous parts: the audit trail, the thing that stops a bad record going out, the form that works on a phone in a shed, the number that is honestly zero instead of quietly inflated. If a process only works because somebody remembers to do it, I don't consider it finished.
 
-[Read the prospectus](https://circularappliances.com/prospectus) · [Pilot brief (printable)](https://circularappliances.com/pilot-brief) · [Impact methodology](https://circularappliances.com/impact-methodology)
+I'm at my best when I can take a messy operational problem, sit with the people doing the work, and turn it into something simple, recorded and repeatable.
 
 ---
 
-## What I do
+## What I've been building
 
 | | |
 | :--- | :--- |
-| **Operations** | Workshop design and WHS, collection logistics, inventory, parts and salvage — everything between a machine arriving and a warrantied appliance leaving the floor. |
-| **Safety & quality** | Designed the system so a unit cannot be listed without a passed electrical safety test, a named sign-off and a serial-linked history. The software refuses the release; it is not left to a manual. |
-| **Engineering** | Designed and built the public website, operations dashboard, trainee portal and integration hub — from data model and access control through to deployment. |
-| **Training pathway** | Structured the repair bench as a staged, supervised and paid pathway, with hours, assessments and sign-offs recorded against real work. |
+| **Circular Appliance Co.** | A Brisbane social enterprise I co-founded with my father. We're pre-launch: building a workshop that restores appliances safely and uses the repair bench as a paid pathway into the trades. I run operations and built the platform. [See the site →](https://circularappliances.com) |
+| **Evidence & case systems** | Private work on evidence handling, case management and document workflows — the kind of software where getting the chain of custody wrong is not acceptable. |
+| **Automation & local AI** | A collection of private experiments: workflow automation, delivery copilots, local AI infrastructure and prediction tooling. Most stay private until they're genuinely useful. |
 
 ---
 
-## The work
+## Currently
 
-### Circular Appliance Co.
-
-One codebase, three surfaces, one database:
-
-- **Public website** — shop with concession and retail pricing, collection bookings with indicative pilot slots, referral pathways, a self-service customer portal, impact reporting with a published methodology, and a prospectus that prints cleanly to PDF.
-- **Operations dashboard** — intake, triage, repair logs, electrical safety records, listings, sales, reservations, warranty claims, parts, trainee hours, partners and closed impact periods.
-- **Platform** — Next.js 16 on Cloudflare Workers, Prisma with D1, hashed API keys, typed server actions, encrypted integration credentials, and hand-written Vitest coverage over the domain rules.
-
-A few decisions worth stating:
-
-- Money is integer cents in AUD; enum-like values are validated strings; JSON is stored as text.
-- Concession evidence records card type and date sighted — never the card number.
-- Published impact figures come from operating records; closed periods are frozen so historical numbers never move.
-- Rate limits fail open. A misconfigured binding must never block a customer or a webhook.
-
-### Elsewhere
-
-Private repositories cover experiments in delivery copilots, local AI infrastructure, workflow automation and case-management tooling. I keep them private until there is something worth showing — or until the question they answer is worth publishing.
+Co-founder and Director of Operations at Circular Appliance Co. We're pre-launch and looking for founding supply, distribution and capability partners for a 50-unit trial. If that's your world, I'd like to hear from you.
 
 ---
 
 ## How I work
 
-| Principle | The test |
-| :--- | :--- |
-| **Safety first** | A second-hand appliance in a low-income household must be as safe as a new one. The gate is in the state machine. |
-| **Access, not credit** | A working machine should not depend on access to credit. No credit checks, no compounding interest. |
-| **Honest measurement** | Report what was actually achieved, including shortfalls. Modelled figures are labelled as modelled; zeros are published as zeros. |
-| **Build for the operator** | If a process only works because someone remembers to do it, it is not finished. |
+- **Safety is a property of the system, not a poster.** The unsafe action should be impossible, not discouraged.
+- **Honest numbers.** Modelled figures are labelled as modelled; zeros are published as zeros.
+- **Build for the operator.** The person on the bench or in the field is the user I design for.
+- **Own the whole loop.** From the first conversation to the deployment and the follow-up.
 
 ---
 
-## Contact
+## Get in touch
 
-Partnerships, procurement, research collaborations or a good question about the model:
-
-[circularappliances.com/contact](https://circularappliances.com/contact) · [hayden@circularappliances.com.au](mailto:hayden@circularappliances.com.au)
+[hayden@circularappliances.com.au](mailto:hayden@circularappliances.com.au) · [circularappliances.com/contact](https://circularappliances.com/contact)
 
 <div align="center">
 
-<sub>Brisbane, Australia · Built with care · All rights reserved</sub>
+<sub>Brisbane, Australia · All rights reserved</sub>
 
 </div>
