@@ -2,59 +2,97 @@
 
 <div align="center">
 
+<img alt="Circular Appliance Co. brand pattern" width="72" src="https://raw.githubusercontent.com/HaydenAlberighi/HaydenAlberighi/main/assets/profile-avatar-gradient.png" />
+
 # Hayden Della Casa Alberighi
 
 **Co-founder & Director of Operations — [Circular Appliance Co.](https://circularappliances.com)**
 
-Brisbane, Australia · [Website](https://circularappliances.com) · [Email](mailto:hayden@circularappliances.com.au) · [Prospectus](https://circularappliances.com/prospectus)
+![Director of Operations](https://img.shields.io/badge/Director_of_Operations-Circular_Appliance_Co.-0F4C3A?style=flat-square)
+![Brisbane](https://img.shields.io/badge/Brisbane-AEST-1B7A5E?style=flat-square)
+![Open to partnerships](https://img.shields.io/badge/Open_to-partnerships-D4AF37?style=flat-square)
+
+Brisbane, Australia · [Website](https://circularappliances.com) · [Email](mailto:hayden@circularappliances.com.au) · [ORCID](https://orcid.org/0009-0002-4947-3952)
 
 </div>
 
----
+<img alt="Brand divider" width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0F4C3A,50:1B7A5E,100:D4AF37&height=4" />
+
+<img alt="Section: ABOUT ME" width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0F4C3A,100:1B7A5E&height=36&text=01%20%20ABOUT%20ME&fontSize=18&fontColor=FFFFFF" />
 
 ## About me
 
-I'm a co-founder and the Director of Operations at Circular Appliance Co., a Brisbane social enterprise in its early stages. I look after the operational side of the business — from how the workshop is set up and run, to how appliances move through collection, restoration, safety checking and delivery.
+I'm a co-founder and Director of Operations at Circular Appliance Co., a Brisbane social enterprise working to keep repairable appliances out of landfill. I focus on the practical side: how the workshop runs, how appliances move through collection, restoration and safety checking, and how each release is recorded and repeatable.
 
-My background spans operations and engineering, but the work I care about is practical: making sure a second-hand appliance is genuinely safe before it reaches a household, and that the process behind it is consistent, recorded and repeatable.
+My background spans operations and engineering. I care about work that is verifiable — an appliance should be safe before it reaches a household, and the process that made it safe should be documented.
 
----
+<img alt="Section: NOW" width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0F4C3A,100:1B7A5E&height=36&text=02%20%20NOW&fontSize=18&fontColor=FFFFFF" />
+
+## Now
+
+Building the workshop process and safety sign-off system at Circular Appliance Co., and turning the supply trial into something repeatable and well documented.
+
+| Focus | Status |
+|---|---|
+| Workshop safety process and named sign-off | ![In progress](https://img.shields.io/badge/In_progress-1B7A5E?style=flat-square) |
+| Repeatable supply-trial documentation | ![Planned](https://img.shields.io/badge/Planned-D4AF37?style=flat-square) |
+
+<img alt="Section: CIRCULAR APPLIANCE CO." width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0F4C3A,100:1B7A5E&height=36&text=03%20%20CIRCULAR%20APPLIANCE%20CO.&fontSize=18&fontColor=FFFFFF" />
 
 ## Circular Appliance Co.
 
-Circular Appliance Co. is a Brisbane social enterprise I'm building with my father. We intercept repairable washing machines and dryers before they go to landfill, restore them to a published safety standard, and supply them at fair prices — with the repair bench doubling as a paid pathway into the trades.
+Circular Appliance Co. intercepts repairable washing machines and dryers before they go to landfill, restores them to a published safety standard, and supplies them at fair prices. The repair bench also doubles as a paid pathway into the trades.
 
-We are pre-launch. The workshop, supply relationships and sales model are being established now. We intend to offer a six-month warranty on every appliance we release, subject to legal review.
+[Website](https://circularappliances.com) · [Pilot brief](https://circularappliances.com/pilot-brief) · [Impact methodology](https://circularappliances.com/impact-methodology)
 
-[See the website](https://circularappliances.com) · [Pilot brief](https://circularappliances.com/pilot-brief) · [Impact methodology](https://circularappliances.com/impact-methodology)
+<img alt="Section: WHAT I OWN" width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0F4C3A,100:1B7A5E&height=36&text=04%20%20WHAT%20I%20OWN&fontSize=18&fontColor=FFFFFF" />
 
----
+## What I own
 
-## My role
-
-As Director of Operations, I own the work that turns the idea into a functioning business:
-
-- **The workshop** — its layout, equipment, work health and safety, and the day-to-day running of the floor.
-- **Collection and logistics** — how appliances arrive, where they come from, and how they reach a customer.
-- **Quality and safety** — no appliance is released without passing an electrical safety test and receiving a named sign-off.
+- **Workshop operations** — layout, equipment, work health and safety, and the day-to-day running of the floor.
+- **Collection and logistics** — how appliances arrive, where they come from and how they reach a customer.
+- **Quality and safety** — electrical safety testing and a named sign-off before any appliance is released.
 - **Customer experience** — from the first enquiry and booking through to delivery and warranty support.
 
----
+<img alt="Section: Stack and working" width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0F4C3A,100:1B7A5E&height=36&text=05%20%20STACK%20AND%20WORKING&fontSize=18&fontColor=FFFFFF" />
 
-## Currently
+## Stack & ways of working
 
-We're early and building deliberately. We're looking for founding **supply, distribution and capability partners** for a 50-unit supply trial. If you manage a waste stream, a housing portfolio, a training pathway or a funding program, I'd like to hear from you.
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-89E051?style=for-the-badge&logo=gnubash&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 
-[Read the prospectus](https://circularappliances.com/prospectus)
+Operations and safety systems, process design and documentation are the core of my work. On the technical side I'm comfortable across TypeScript, Python and shell, and I use GitHub Actions for automation. I prefer simple, auditable processes over clever ones — if a step can't be recorded, it isn't finished.
 
----
+<img alt="Section: Writing" width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0F4C3A,100:1B7A5E&height=36&text=06%20%20WRITING&fontSize=18&fontColor=FFFFFF" />
 
-## Get in touch
+## Writing & resources
 
-[hayden@circularappliances.com.au](mailto:hayden@circularappliances.com.au) · [circularappliances.com/contact](https://circularappliances.com/contact)
+- [Prospectus](https://circularappliances.com/prospectus) — the full picture and where we're heading.
+- [Pilot brief](https://circularappliances.com/pilot-brief) — the supply trial and what we're testing.
+- [Impact methodology](https://circularappliances.com/impact-methodology) — how we measure outcomes.
+- [ORCID](https://orcid.org/0009-0002-4947-3952) — research and professional record.
+
+<img alt="Section: OPEN TO PARTNERSHIPS" width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0F4C3A,100:1B7A5E&height=36&text=07%20%20OPEN%20TO%20PARTNERSHIPS&fontSize=18&fontColor=FFFFFF" />
+
+## Open to partnerships
+
+We're building supply, distribution and capability partnerships in Brisbane. If you work with waste streams, housing, training pathways or funding programs, I'd like to hear from you.
+
+Based in Brisbane, Australia (AEST, UTC+10) — happy to talk by email or through the contact page.
+
+[Get in touch](https://circularappliances.com/contact) · [Email](mailto:hayden@circularappliances.com.au) · [Read the prospectus](https://circularappliances.com/prospectus)
+
+<img alt="Bottom accent" width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:D4AF37,100:0F4C3A&height=8" />
 
 <div align="center">
 
-<sub>Brisbane, Australia · All rights reserved</sub>
+[![Get in touch](https://img.shields.io/badge/Get_in_touch-0F4C3A?style=for-the-badge)](https://circularappliances.com/contact)
+
+<sub>Brisbane, Australia</sub>
 
 </div>
